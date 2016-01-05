@@ -1,12 +1,17 @@
 'use strict';
 
-module.exports = function hackerCase(text, startLower) {
-  if (undefined === startLower) {
-    startLower = false;
-  }
-  var upperCase = startLower;
+module.exports = function hackerCase(text, replaceMap) {
+  var upperCase = false;
 
-  return text.replace(/\w/g, function(char) {
+  var result = text.replace(/\w/g, function(char) {
     return char[(upperCase = !upperCase) ? 'toLocaleUpperCase' : 'toLocaleLowerCase']();
   });
+
+  if (replaceMap) {
+    for (var src in replaceMap) {
+      result = result.replace(new RegExp(src, 'gi'), replaceMap[src]);
+    }
+  }
+
+  return result;
 };
