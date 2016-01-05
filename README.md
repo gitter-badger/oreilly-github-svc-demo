@@ -1,7 +1,7 @@
 Hooking your GitHub repo to third-party services
 ================================================
 
-This is a demo repo for the [Mastering Advanced GitHub](#FIXME) video series at O’Reilly.
+This is a demo repo for the **Mastering Advanced GitHub** video series at O’Reilly.
 
 It serves as a hooking point for a variety of third-party services:
 
