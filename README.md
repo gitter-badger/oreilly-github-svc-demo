@@ -1,6 +1,10 @@
 Hooking your GitHub repo to third-party services
 ================================================
 
+[![Join the chat at https://gitter.im/deliciousinsights/oreilly-github-svc-demo](https://badges.gitter.im/deliciousinsights/oreilly-github-svc-demo.svg)](https://gitter.im/deliciousinsights/oreilly-github-svc-demo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+[![devDependency Status](https://david-dm.org/deliciousinsights/oreilly-github-svc-demo/dev-status.svg?style=flat)](https://david-dm.org/deliciousinsights/oreilly-github-svc-demo#info=devDependencies)
+
 This is a demo repo for the [Mastering Advanced GitHub](#FIXME) video series at O’Reilly.
 
 It serves as a hooking point for a variety of third-party services:
@@ -9,7 +13,8 @@ It serves as a hooking point for a variety of third-party services:
   * [CodeClimate](https://codeclimate.com/) for quality metrics
   * [Codecov](https://codecov.io/) for test coverage
   * [Inch CI](https://inch-ci.org/) for documentation coverage
-  * [Greenkeeper](http://greenkeeper.io/) for dependency monitoring
+  * [Gitter](https://gitter.im/) for chat
+  * [David](https://david-dm.org/) for dependency monitoring
 
 Usage
 -----
